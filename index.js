@@ -28,7 +28,7 @@ function playSoundByUser(username, connection, newState) {
 		dispatcher = connection.play('./joao.mp3', {
 			volume: 1.0,
 		});
-	} else if (username === 'Gab' || username === 'Admilson') {
+	} else if (username === 'Gab') {
 		dispatcher = connection.play('./ganso.mp3', {
 			volume: 1.0,
 		});
